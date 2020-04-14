@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/board_insert_title"
+        android:padding="10dp"
+        android:hint="제목"
+        android:layout_width="match_parent"
+        android:background="@drawable/rectangle"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"/>
+
+    <EditText
+        android:id="@+id/board_insert_content"
+        android:hint="내용"
+        android:textSize="20dp"
+        android:background="@drawable/rectangle"
+        android:padding="10dp"
+        android:layout_weight="8"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/board_insert_btn"
+            android:text="작성하기"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/board_cancle_btn"
+            android:text="취소하기"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

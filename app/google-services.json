@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "981702399712",
+    "firebase_url": "https://gastroventure-7f99f.firebaseio.com",
+    "project_id": "gastroventure-7f99f",
+    "storage_bucket": "gastroventure-7f99f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981702399712:android:009fd667deca4486ed2285",
+        "android_client_info": {
+          "package_name": "com.teamproject.gastroventure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981702399712-2gcgglm7egppqp2d9do1jhmrnc7k5g2k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.teamproject.gastroventure",
+            "certificate_hash": "9e937769940351d78d7b09766e9fdf66a490b508"
+          }
+        },
+        {
+          "client_id": "981702399712-fbr5uje3b392egqti9h8p7dlg7qsc85n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2v3zQEI7St_JnMFKZ5b9j2mGF7ahVA70"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981702399712-fbr5uje3b392egqti9h8p7dlg7qsc85n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
