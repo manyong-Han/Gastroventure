@@ -33,8 +33,6 @@ public class SearchUtil {
             int size) throws Exception{
         List<SearchVo> list = new ArrayList<SearchVo>();
 
-        //        3ebe1c7e586491e37bc04090f8d133b0
-        //String  kakaoAK = "KakaoAK 3ebe1c7e586491e37bc04090f8d133b0";
         //keyword = URLEncoder.encode(keyword, "utf-8");
         String  kakaoAK = MyOpenAPIKey.Daum.KAKAOAK;
         String urlStr = String.format("https://dapi.kakao.com/v2/local/search/cagegory.json?category_group_code=%s&query=x=%f&y=%f&radius=%d&page=%d&size=%d",
